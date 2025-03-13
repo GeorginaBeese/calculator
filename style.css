@@ -1,0 +1,41 @@
+#container {
+    margin: auto;
+    margin-top: 100px;
+    width: 400px;
+    background-color: palevioletred;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#keypad {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    font-size: 40px;
+    width: 23%;
+    aspect-ratio: 1 / 1;
+    margin: 1%;
+    box-sizing: border-box;
+    padding: 2%;
+    background-color: pink;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.enter , .clear {
+    background-color: rgb(253, 221, 226);
+}
+
+#input {
+    font-size: 40px;
+    width: auto;
+    padding: 4%;
+    margin: 1%;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+}
